@@ -1,0 +1,24 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard__container {
+    display: flex;
+    flex: 1;
+}
+
+.dashboard__content {
+    width: 100%;
+    min-height: 95vh;
+    height: 100%;
+    padding-bottom: 60px;
+    flex: 1;
+}
+
+.dashboard__content h1 {
+    color: #333;
+}
