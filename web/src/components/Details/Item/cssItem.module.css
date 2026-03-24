@@ -1,0 +1,30 @@
+.itemArea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    transition: background-color .9s;
+}
+
+.itemArea:hover {
+    cursor: pointer;
+    padding: 0px 5px;
+    background-color: aliceblue;
+}
+
+.itemNegrito{
+    font-weight: bold;
+}
+
+.itemLabel {
+    color: #4b7096;
+}
+
+.itemInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemInfo *{
+    font-size: 18px;
+}
